@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1,h2,h3,h4,h5,h6,p,a {
+    font-family: "Comfortaa", serif;
+}
+
+
+h1,h2,h3,h4,.enllacos_titol {
+    border-bottom: 3px black solid;
+}
+
+h1 {
+    background-color: cyan;
+    border-radius: 5px;
+}
+
+.enllacos_titol {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(0, 68, 255);
+    font-family: "Noto Sans", serif;
+    border-radius: 5px;
+}
+
+h2 {
+    background-color: palevioletred;
+    border-radius: 4px;
+}
+
+h3 {
+    background-color: palegreen;
+    border-radius: 3px;
+}
+
+h4 {
+    background-color: paleturquoise;
+    border-radius: 2px;
+    color: #343434;
+}
+
+h5 {
+    color: #6d6d6d;
+}
+
+h6 {
+    color: #858585;
+}
+
+img {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+
+.capçelera {
+    grid-area: c;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.contingut {
+    grid-area: o;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.lateral {
+    grid-area: l;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.peu {
+    grid-area: p;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.principal {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: auto auto 40px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "c c"
+        "o l"
+        "p p";
+}
+
+
+
+#red {
+    color: red;
+}
+#orange {
+    color: orange;
+}
+#green {
+    color: green
+}
+#cyan {
+    color: cyan;
+}
+#blue {
+    color: blue;
+}
+#purple {
+    color: purple;
+}
+#pink {
+    color: pink;
+}
